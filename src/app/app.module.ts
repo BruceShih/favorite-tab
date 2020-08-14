@@ -20,6 +20,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
 
+import { LayoutModule } from './layout/layout.module';
+
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -28,6 +30,7 @@ import { environment } from '../environments/environment';
     BrowserAnimationsModule,
     HammerModule,
     AngularFireModule.initializeApp(environment.firebase),
+    LayoutModule,
   ],
   providers: [
     { provide: HAMMER_GESTURE_CONFIG, useClass: LyHammerGestureConfig },
