@@ -13,11 +13,10 @@ const styles = (theme: ThemeVariables) => ({
 });
 
 @Component({
-  selector: 'app-layout',
-  templateUrl: './layout.component.html',
-  styleUrls: ['./layout.component.scss'],
+  selector: 'app-main',
+  templateUrl: './main.component.html',
 })
-export class LayoutComponent implements OnInit {
+export class MainComponent implements OnInit {
   readonly classes = this.theme.addStyleSheet(styles);
   constructor(private theme: LyTheme2) {}
 

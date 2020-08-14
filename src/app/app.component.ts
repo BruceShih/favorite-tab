@@ -22,7 +22,6 @@ const STYLES = (theme: ThemeVariables, ref: ThemeRef) => {
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
   providers: [StyleRenderer],
 })
 export class AppComponent {
