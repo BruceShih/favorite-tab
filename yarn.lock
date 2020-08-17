@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@alyle/ui@^9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@alyle/ui/-/ui-9.0.0.tgz#f0aec2836418454768dee5e49b5bc65e15b662f6"
-  integrity sha512-V/+z993/WFQUkiWcCNPW3UEx/8qAuYzDYXGwHJWd667e/HlZVSyOpjPSaZ5vOmGTbqySJ+/KPX8EKd4ruI1oXw==
+"@alyle/ui@^9.0.1":
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/@alyle/ui/-/ui-9.0.1.tgz#7a124fcb5aac8c09f8ed746efea2e526029d0a2d"
+  integrity sha512-GO5wE27ASStr4TvsMEDdHRojdFB2pdI0LDRqWpc9JSiQgLf/uueadDGcIzOZyhx4vwESwcXYt5JiDHZNgmQgFA==
 
 "@angular-devkit/architect@0.1000.5", "@angular-devkit/architect@>= 0.900 < 0.1100":
   version "0.1000.5"
